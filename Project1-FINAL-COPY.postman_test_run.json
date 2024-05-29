@@ -1,0 +1,1087 @@
+{
+	"id": "639ed056-df15-4455-8f9a-17217fb6df90",
+	"name": "Project1-FINAL-COPY",
+	"timestamp": "2024-05-28T04:25:03.432Z",
+	"collection_id": "27583274-0c51e3af-ba5d-4b0b-a7ea-2823a9183058",
+	"folder_id": 0,
+	"environment_id": "27583274-d7cc000c-79a5-4757-ad0b-d6c66a8bfa3d",
+	"totalPass": 36,
+	"delay": "500",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-05-28T04:24:22.771Z",
+	"totalFail": 4,
+	"results": [
+		{
+			"id": "193482ca-328c-4b9d-92f2-268aa47094f7",
+			"name": "LIST USERS API",
+			"url": "https://gorest.co.in/public/v2/users",
+			"time": 607,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Verify if response code is 4xx client side error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx client side error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				607
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx client side error": true
+				}
+			]
+		},
+		{
+			"id": "ae43243c-bef5-4a0a-8721-3ff63b454ac6",
+			"name": "LIST USERS API",
+			"url": "https://gorest.co.in/public/v2/users/",
+			"time": 591,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Verify if response code is 4xx client side error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx client side error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				591
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx client side error": true
+				}
+			]
+		},
+		{
+			"id": "3dacd950-8bce-4e42-bc7d-15ac31ad172e",
+			"name": "LIST USERS API",
+			"url": "https://gorest.co.in/public/v2/users/",
+			"time": 530,
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity"
+			},
+			"tests": {
+				"Verify if response code is 4xx client side error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx client side error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				530
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx client side error": true
+				}
+			]
+		},
+		{
+			"id": "a958823f-bd39-4fe0-83f9-ce9797f78617",
+			"name": "CREATE USER API",
+			"url": "https://gorest.co.in/public/v2/users/6921457",
+			"time": 491,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Verify if response code is 4xx client side error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx client side error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				491
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx client side error": true
+				}
+			]
+		},
+		{
+			"id": "9bf13a99-31d6-484b-9ff5-372723268759",
+			"name": "CREATE USER API",
+			"url": "https://gorest.co.in/public/v2/users/6930594",
+			"time": 811,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify if response code is 4xx client side error": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx client side error": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				811
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx client side error": false
+				}
+			]
+		},
+		{
+			"id": "1de969ac-8e1c-477f-b741-7ee2d8ec067d",
+			"name": "CREATE USER API",
+			"url": "https://gorest.co.in/public/v2/users/6921457",
+			"time": 710,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Verify if response code is 4xx client side error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx client side error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				710
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx client side error": true
+				}
+			]
+		},
+		{
+			"id": "a096971a-167d-4b28-a12b-5bc4490964b8",
+			"name": "DELETE USER API",
+			"url": "https://gorest.co.in/public/v2/users/6930594",
+			"time": 539,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Verify if response code is 4xx client side error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx client side error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				539
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx client side error": true
+				}
+			]
+		},
+		{
+			"id": "3e701319-5cc8-4401-a3d3-8e219e0a5b0a",
+			"name": "LIST USERS API",
+			"url": "https://gorest.co.in/public/v1/users/6923544",
+			"time": 561,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify if response code is 4xx or 5xx error": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx or 5xx error": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				561
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx or 5xx error": false
+				}
+			]
+		},
+		{
+			"id": "d7c1551e-dd4f-4a79-a7f4-3f909b992fec",
+			"name": "LIST USERS API Copy",
+			"url": "https://gorest.co.in/private/v1/users/6923544",
+			"time": 319,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Verify if response code is 4xx or 5xx error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx or 5xx error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				319
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx or 5xx error": true
+				}
+			]
+		},
+		{
+			"id": "5f2d4e76-9b15-4c09-b148-5709af80a57f",
+			"name": "CREATE USER API",
+			"url": "https://gorest.co.in/public/v1/users/",
+			"time": 1700,
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity"
+			},
+			"tests": {
+				"Verify if response code is 4xx or 5xx error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx or 5xx error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1700
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx or 5xx error": true
+				}
+			]
+		},
+		{
+			"id": "2a01a0ac-40c7-4b0b-80bb-560e6146eda0",
+			"name": "CREATE USER API Copy",
+			"url": "https://gorest.co.in/private/v1/users/",
+			"time": 676,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Verify if response code is 4xx or 5xx error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx or 5xx error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				676
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx or 5xx error": true
+				}
+			]
+		},
+		{
+			"id": "8680856c-0cc2-4091-ae4f-e22bafb0200f",
+			"name": "UPDATE USER API",
+			"url": "https://gorest.co.in/public/v1/users/6921457",
+			"time": 528,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Verify if response code is 4xx or 5xx error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx or 5xx error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				528
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx or 5xx error": true
+				}
+			]
+		},
+		{
+			"id": "b2e5bf72-9b4c-49db-87ea-4793944825a9",
+			"name": "UPDATE USER API Copy",
+			"url": "https://gorest.co.in/private/v1/users/6921457",
+			"time": 522,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Verify if response code is 4xx or 5xx error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx or 5xx error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				522
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx or 5xx error": true
+				}
+			]
+		},
+		{
+			"id": "66a71388-6587-40fd-abda-d41b81e0fd83",
+			"name": "DELETE USER API",
+			"url": "https://gorest.co.in/public/v1/users/6918690",
+			"time": 628,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Verify if response code is 4xx or 5xx error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx or 5xx error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				628
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx or 5xx error": true
+				}
+			]
+		},
+		{
+			"id": "22d4b7c2-c00b-4e11-8fb9-f2a6b8108aaf",
+			"name": "DELETE USER API Copy",
+			"url": "https://gorest.co.in/private/v1/users/6918690",
+			"time": 586,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Verify if response code is 4xx or 5xx error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx or 5xx error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				586
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx or 5xx error": true
+				}
+			]
+		},
+		{
+			"id": "86a9cf46-3e96-411b-b067-7359ae2a004c",
+			"name": "CREATE USER API-INVALID Gender",
+			"url": "https://gorest.co.in/public/v2/users/",
+			"time": 664,
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity"
+			},
+			"tests": {
+				"Verify if response code is 4xx or 5xx error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx or 5xx error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				664
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx or 5xx error": true
+				}
+			]
+		},
+		{
+			"id": "60b4fbb9-df95-42e6-b28b-bc146e72f73e",
+			"name": "CREATE USER API-INVALID status",
+			"url": "https://gorest.co.in/public/v2/users/",
+			"time": 532,
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity"
+			},
+			"tests": {
+				"Verify if response code is 4xx or 5xx error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx or 5xx error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				532
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx or 5xx error": true
+				}
+			]
+		},
+		{
+			"id": "eb830e48-0f23-4a41-8e55-da0e440228ce",
+			"name": "CREATE USER API-INVALID Datatype",
+			"url": "https://gorest.co.in/public/v2/users/",
+			"time": 556,
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Entity"
+			},
+			"tests": {
+				"Verify if response code is 4xx or 5xx error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx or 5xx error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				556
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx or 5xx error": true
+				}
+			]
+		},
+		{
+			"id": "fad1dc10-9162-44c3-94b9-52873a180bfe",
+			"name": "CREATE USER API-INVALID Data Length",
+			"url": "https://gorest.co.in/public/v2/users/",
+			"time": 523,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Verify if response code is 4xx or 5xx error": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx or 5xx error": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				523
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx or 5xx error": false
+				}
+			]
+		},
+		{
+			"id": "b07f519c-1124-4e79-bb73-8f7609c00a4a",
+			"name": "CREATE USER API-NEW PAYLOAD FIELDS",
+			"url": "https://gorest.co.in/public/v2/users/",
+			"time": 666,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Verify if response code is 4xx or 5xx error": false
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx or 5xx error": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				666
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx or 5xx error": false
+				}
+			]
+		},
+		{
+			"id": "49ed03a9-90a0-420a-b254-3bc0b31a205e",
+			"name": "UPDATE USER API-EMPTY NAME",
+			"url": "https://gorest.co.in/public/v2/users/6921457",
+			"time": 545,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Verify if response code is 4xx or 5xx error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx or 5xx error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				545
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx or 5xx error": true
+				}
+			]
+		},
+		{
+			"id": "85241e32-7882-498f-8e8c-9f105204ce64",
+			"name": "UPDATE USER API-EMPTY GENDER",
+			"url": "https://gorest.co.in/public/v2/users/6921457",
+			"time": 808,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Verify if response code is 4xx or 5xx error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx or 5xx error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				808
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx or 5xx error": true
+				}
+			]
+		},
+		{
+			"id": "a5113799-aae5-44f5-a8ff-28b55eaddeb6",
+			"name": "UPDATE USER API-EMPTY EMAIL",
+			"url": "https://gorest.co.in/public/v2/users/6921457",
+			"time": 660,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Verify if response code is 4xx or 5xx error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx or 5xx error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				660
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx or 5xx error": true
+				}
+			]
+		},
+		{
+			"id": "0bc8b11e-ce4e-493b-b619-1f5213777f37",
+			"name": "UPDATE USER API-NEW PAYLOAD FIELD",
+			"url": "https://gorest.co.in/public/v2/users/6921457",
+			"time": 576,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Verify if response code is 4xx or 5xx error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx or 5xx error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				576
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx or 5xx error": true
+				}
+			]
+		},
+		{
+			"id": "487926b1-d148-4a50-b5ba-8e73c52199d0",
+			"name": "UPDATE USER API-INVALID Datatype",
+			"url": "https://gorest.co.in/public/v2/users/6921457",
+			"time": 547,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Verify if response code is 4xx or 5xx error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx or 5xx error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				547
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx or 5xx error": true
+				}
+			]
+		},
+		{
+			"id": "7054b78b-6d31-4f66-9997-4bea45783d0f",
+			"name": "UPDATE USER API-INVALID DataLength",
+			"url": "https://gorest.co.in/public/v2/users/6921457",
+			"time": 604,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Verify if response code is 4xx or 5xx error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx or 5xx error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				604
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx or 5xx error": true
+				}
+			]
+		},
+		{
+			"id": "6d372579-f980-41fc-9a4c-67969ea1966f",
+			"name": "UPDATE USER API-INVALID Gender",
+			"url": "https://gorest.co.in/public/v2/users/6921457",
+			"time": 598,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Verify if response code is 4xx or 5xx error": true
+			},
+			"testPassFailCounts": {
+				"Verify if response code is 4xx or 5xx error": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				598
+			],
+			"allTests": [
+				{
+					"Verify if response code is 4xx or 5xx error": true
+				}
+			]
+		},
+		{
+			"id": "4cfca634-e58e-44a2-b8e8-bda0f84f2d60",
+			"name": "CREATE USER API",
+			"url": "https://gorest.co.in/public/v2/users/",
+			"time": 697,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"verify if response code is 201 Created": true
+			},
+			"testPassFailCounts": {
+				"verify if response code is 201 Created": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				697
+			],
+			"allTests": [
+				{
+					"verify if response code is 201 Created": true
+				}
+			]
+		},
+		{
+			"id": "6ba65f60-c64e-4272-844d-a89a462ee25e",
+			"name": "verify user created",
+			"url": "https://gorest.co.in/public/v2/users/",
+			"time": 594,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"verify if response code is 200 OK": true,
+				"Verify if user is created with name: Kerry Schmidt": true
+			},
+			"testPassFailCounts": {
+				"verify if response code is 200 OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if user is created with name: Kerry Schmidt": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				594
+			],
+			"allTests": [
+				{
+					"verify if response code is 200 OK": true,
+					"Verify if user is created with name: Kerry Schmidt": true
+				}
+			]
+		},
+		{
+			"id": "1c25364a-4241-4c06-b804-2b2c1ce03db8",
+			"name": "UPDATE USER API",
+			"url": "https://gorest.co.in/public/v2/users/6932224",
+			"time": 583,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"verify if response code is 200 OK": true
+			},
+			"testPassFailCounts": {
+				"verify if response code is 200 OK": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				583
+			],
+			"allTests": [
+				{
+					"verify if response code is 200 OK": true
+				}
+			]
+		},
+		{
+			"id": "6d396994-579f-4f5d-b587-58209af7e294",
+			"name": "verify user updated",
+			"url": "https://gorest.co.in/public/v2/users",
+			"time": 622,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"verify if response code is 200 OK": true,
+				"Verify if user is updated with name: Kerry Schmidt": true
+			},
+			"testPassFailCounts": {
+				"verify if response code is 200 OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if user is updated with name: Kerry Schmidt": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				622
+			],
+			"allTests": [
+				{
+					"verify if response code is 200 OK": true,
+					"Verify if user is updated with name: Kerry Schmidt": true
+				}
+			]
+		},
+		{
+			"id": "2e3ba17e-1a6a-4e87-b7ec-e6d7d10fd807",
+			"name": "DELETE USER API",
+			"url": "https://gorest.co.in/public/v2/users/6932224",
+			"time": 597,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"verify if response code is 204 No Content": true
+			},
+			"testPassFailCounts": {
+				"verify if response code is 204 No Content": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				597
+			],
+			"allTests": [
+				{
+					"verify if response code is 204 No Content": true
+				}
+			]
+		},
+		{
+			"id": "037bd0f4-58a1-4ebe-bca6-72a960f02635",
+			"name": "verify user deleted",
+			"url": "https://gorest.co.in/public/v2/users",
+			"time": 567,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"verify if response code is 200 OK": true,
+				"Verify if response time is < 5 seconds": true,
+				"Verify if response body is received from server": true,
+				"Verify if response body is received in JSON format": true,
+				"Verify if response body contains fields such as id, name, email, gender, status": true,
+				"Verify if user is deleted with name: Kerry Schmidt": true
+			},
+			"testPassFailCounts": {
+				"verify if response code is 200 OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response time is < 5 seconds": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body is received from server": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body is received in JSON format": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if response body contains fields such as id, name, email, gender, status": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify if user is deleted with name: Kerry Schmidt": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				567
+			],
+			"allTests": [
+				{
+					"verify if response code is 200 OK": true,
+					"Verify if response time is < 5 seconds": true,
+					"Verify if response body is received from server": true,
+					"Verify if response body is received in JSON format": true,
+					"Verify if response body contains fields such as id, name, email, gender, status": true,
+					"Verify if user is deleted with name: Kerry Schmidt": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 20738,
+	"collection": {
+		"requests": [
+			{
+				"id": "193482ca-328c-4b9d-92f2-268aa47094f7",
+				"method": "DELETE"
+			},
+			{
+				"id": "ae43243c-bef5-4a0a-8721-3ff63b454ac6",
+				"method": "PUT"
+			},
+			{
+				"id": "3dacd950-8bce-4e42-bc7d-15ac31ad172e",
+				"method": "POST"
+			},
+			{
+				"id": "a958823f-bd39-4fe0-83f9-ce9797f78617",
+				"method": "DELETE"
+			},
+			{
+				"id": "9bf13a99-31d6-484b-9ff5-372723268759",
+				"method": "PATCH"
+			},
+			{
+				"id": "1de969ac-8e1c-477f-b741-7ee2d8ec067d",
+				"method": "POST"
+			},
+			{
+				"id": "a096971a-167d-4b28-a12b-5bc4490964b8",
+				"method": "POST"
+			},
+			{
+				"id": "3e701319-5cc8-4401-a3d3-8e219e0a5b0a",
+				"method": "GET"
+			},
+			{
+				"id": "d7c1551e-dd4f-4a79-a7f4-3f909b992fec",
+				"method": "GET"
+			},
+			{
+				"id": "5f2d4e76-9b15-4c09-b148-5709af80a57f",
+				"method": "POST"
+			},
+			{
+				"id": "2a01a0ac-40c7-4b0b-80bb-560e6146eda0",
+				"method": "POST"
+			},
+			{
+				"id": "8680856c-0cc2-4091-ae4f-e22bafb0200f",
+				"method": "PATCH"
+			},
+			{
+				"id": "b2e5bf72-9b4c-49db-87ea-4793944825a9",
+				"method": "PATCH"
+			},
+			{
+				"id": "66a71388-6587-40fd-abda-d41b81e0fd83",
+				"method": "DELETE"
+			},
+			{
+				"id": "22d4b7c2-c00b-4e11-8fb9-f2a6b8108aaf",
+				"method": "DELETE"
+			},
+			{
+				"id": "86a9cf46-3e96-411b-b067-7359ae2a004c",
+				"method": "POST"
+			},
+			{
+				"id": "60b4fbb9-df95-42e6-b28b-bc146e72f73e",
+				"method": "POST"
+			},
+			{
+				"id": "eb830e48-0f23-4a41-8e55-da0e440228ce",
+				"method": "POST"
+			},
+			{
+				"id": "fad1dc10-9162-44c3-94b9-52873a180bfe",
+				"method": "POST"
+			},
+			{
+				"id": "b07f519c-1124-4e79-bb73-8f7609c00a4a",
+				"method": "POST"
+			},
+			{
+				"id": "49ed03a9-90a0-420a-b254-3bc0b31a205e",
+				"method": "PATCH"
+			},
+			{
+				"id": "85241e32-7882-498f-8e8c-9f105204ce64",
+				"method": "PATCH"
+			},
+			{
+				"id": "a5113799-aae5-44f5-a8ff-28b55eaddeb6",
+				"method": "PATCH"
+			},
+			{
+				"id": "0bc8b11e-ce4e-493b-b619-1f5213777f37",
+				"method": "PATCH"
+			},
+			{
+				"id": "487926b1-d148-4a50-b5ba-8e73c52199d0",
+				"method": "PATCH"
+			},
+			{
+				"id": "7054b78b-6d31-4f66-9997-4bea45783d0f",
+				"method": "PATCH"
+			},
+			{
+				"id": "6d372579-f980-41fc-9a4c-67969ea1966f",
+				"method": "PATCH"
+			},
+			{
+				"id": "4cfca634-e58e-44a2-b8e8-bda0f84f2d60",
+				"method": "POST"
+			},
+			{
+				"id": "6ba65f60-c64e-4272-844d-a89a462ee25e",
+				"method": "GET"
+			},
+			{
+				"id": "1c25364a-4241-4c06-b804-2b2c1ce03db8",
+				"method": "PATCH"
+			},
+			{
+				"id": "6d396994-579f-4f5d-b587-58209af7e294",
+				"method": "GET"
+			},
+			{
+				"id": "2e3ba17e-1a6a-4e87-b7ec-e6d7d10fd807",
+				"method": "DELETE"
+			},
+			{
+				"id": "037bd0f4-58a1-4ebe-bca6-72a960f02635",
+				"method": "GET"
+			}
+		]
+	}
+}

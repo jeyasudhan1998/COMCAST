@@ -1,0 +1,387 @@
+{
+	"info": {
+		"_postman_id": "d6b03801-cf65-499e-963a-12a5803083c2",
+		"name": "PROJECT2 - VARIABLES ENV",
+		"description": "Add LIST USERS API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27583274",
+		"_collection_link": "https://www.postman.com/prasara/workspace/comcasttraining/collection/27583274-d6b03801-cf65-499e-963a-12a5803083c2?action=share&source=collection_link&creator=27583274"
+	},
+	"item": [
+		{
+			"name": "POSITIVE TC-ENV VARIABLE",
+			"item": [
+				{
+					"name": "LIST USERS API",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"verify if response code is 200 OK\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"    pm.response.to.have.status(\"OK\");\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"Verify if response time is < 5 seconds\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(5000);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Verify if response body is received from server\", function () {\r",
+									"\tpm.response.to.have.body();\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Verify if response body is received in JSON format\", function () {\r",
+									"    pm.response.to.have.header(\"Content-Type\", \"application/json; charset=utf-8\");\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Verify if response body contains fields such as id, name, email, gender, status\", function () {\r",
+									"    pm.expect(pm.response.text()).to.include(\"id\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"name\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"email\")\r",
+									"    pm.expect(pm.response.text()).to.include(\"gender\")\r",
+									"    pm.expect(pm.response.text()).to.include(\"status\")\r",
+									"});\r",
+									"\r",
+									"// Capturing the response attributes\r",
+									"\r",
+									"console.log(\"The response code is \"+pm.response.code);\r",
+									"console.log(\"The response message is \"+pm.response.status);\r",
+									"console.log(\"The response time from server is \"+pm.response.responseTime+\" ms\");\r",
+									"\r",
+									"console.log(\"The response size received from server is \");\r",
+									"console.log(pm.response.size());\r",
+									"\r",
+									"\r",
+									"console.log(\"The response body received from server in JSON format is \");\r",
+									"console.log(pm.response.json());        // print in json format\r",
+									"\r",
+									"\r",
+									"console.log(\"The response body received from server in TEXT format is \");\r",
+									"console.log(pm.response.text());        // print in text format\r",
+									"\r",
+									"\r",
+									"console.log(\"The response headers received from server are \");\r",
+									"console.log(pm.response.headers);\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "7aae2b24aec11ae439f6e9f60bff79e4127f15d644294402770de5ce3be7a474",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{envprotocol}}://{{envurl}}/public/v2/users",
+							"protocol": "{{envprotocol}}",
+							"host": [
+								"{{envurl}}"
+							],
+							"path": [
+								"public",
+								"v2",
+								"users"
+							]
+						},
+						"description": "Add LIST USERS API:  \n  \nStartFragment**This is a REST API that uses HTTP method=GET and is used to retrieve/read/fetch all the existing users details from the server/database**EndFragment  \n  \n\nExpected Result:\n\n- Verify if response code received from server is 200 GET-PASSED\n    \n- Verify if response time from server < 5 seconds-PASSED\n    \n- Verify if response body is received from server-PASSED\n    \n- Verify if response body received from server is in JSON format-PASSED"
+					},
+					"response": []
+				},
+				{
+					"name": "CREATE USER API",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"verify if response code is 201 Created\", function () {\r",
+									"    pm.response.to.have.status(201);\r",
+									"    pm.response.to.have.status(\"Created\");\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"Verify if response time is < 5 seconds\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(5000);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Verify if response body is received from server\", function () {\r",
+									"\tpm.response.to.have.body();\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Verify if response body is received in JSON format\", function () {\r",
+									"    pm.response.to.have.header(\"Content-Type\", \"application/json; charset=utf-8\");\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Verify if response body contains fields such as id, name, email, gender, status\", function () {\r",
+									"    pm.expect(pm.response.text()).to.include(\"id\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"name\");\r",
+									"    pm.expect(pm.response.text()).to.include(\"email\")\r",
+									"    pm.expect(pm.response.text()).to.include(\"gender\")\r",
+									"    pm.expect(pm.response.text()).to.include(\"status\")\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Verify if gender is either male or female\", function () {\r",
+									"    pm.expect(pm.response.json().gender).to.be.oneOf([\"male\", \"female\"]);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Verify if status is either active or inactive\", function () {\r",
+									"    pm.expect(pm.response.json().status).to.be.oneOf([\"active\", \"inactive\"]);\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"pm.globals.set(\"gname\",\"joel23\");\r",
+									"pm.globals.set(\"ggender\",\"male\");\r",
+									"pm.globals.set(\"gstatus\",\"active\");\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "7aae2b24aec11ae439f6e9f60bff79e4127f15d644294402770de5ce3be7a474",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"name\": \"{{gname}}\",\r\n        \"email\": \"{{$randomEmail}}\",\r\n        \"gender\": \"{{ggender}}\",\r\n        \"status\": \"{{gstatus}}\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{envprotocol}}://{{envurl}}/public/v2/users/",
+							"protocol": "{{envprotocol}}",
+							"host": [
+								"{{envurl}}"
+							],
+							"path": [
+								"public",
+								"v2",
+								"users",
+								""
+							]
+						},
+						"description": "CREATE USER API\n\n  \nThis is a REST API that uses HTTP method=POST and is used to create new user in the server/database  \n  \nExpected Result:\n\n- Verify if response code received from server is 201 Created-PASSED\n    \n- Verify if response time from server < 5 seconds-PASSED\n    \n- Verify if response body is received from server-PASSED\n    \n- Verify if response body received from server is in JSON format-PASSED"
+					},
+					"response": []
+				},
+				{
+					"name": "UPDATE USER API",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "7aae2b24aec11ae439f6e9f60bff79e4127f15d644294402770de5ce3be7a474",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer 7aae2b24aec11ae439f6e9f60bff79e4127f15d644294402770de5ce3be7a474"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"name\":\"prasannpo\",\"email\":\"{{$randomEmail}}\",\"gender\":\"female\",\"status\":\"active\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{envprotocol}}://{{envurl}}/public/v2/6930899",
+							"protocol": "{{envprotocol}}",
+							"host": [
+								"{{envurl}}"
+							],
+							"path": [
+								"public",
+								"v2",
+								"6930899"
+							]
+						},
+						"description": "Update user API  \n  \n**This is a REST API that uses HTTP method=PATCH and is used to update/modify existing user details in the server/database**  \n  \nExpected Result:\n\n- Verify if response code received from server is 200 UPDATED-PASSED\n    \n- Verify if response time from server < 5 seconds-PASSED\n    \n- Verify if response body is received from server-PASSED\n    \n- Verify if response body received from server is in JSON format-PASSED"
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE USER API",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"verify if response code is 204 No Content\", function () {\r",
+									"    pm.response.to.have.status(204);\r",
+									"    pm.response.to.have.status(\"No Content\");\r",
+									"});\r",
+									"\r",
+									"\r",
+									"pm.test(\"Verify if response time is < 2 seconds\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(2000);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Verify if response body is not received from server\", function () {\r",
+									"\tpm.response.to.not.have.body();\r",
+									"});\r",
+									"\r",
+									"\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "7aae2b24aec11ae439f6e9f60bff79e4127f15d644294402770de5ce3be7a474",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer 7aae2b24aec11ae439f6e9f60bff79e4127f15d644294402770de5ce3be7a474"
+							}
+						],
+						"url": {
+							"raw": "{{envprotocol}}://{{envurl}}/public/v2/6930899",
+							"protocol": "{{envprotocol}}",
+							"host": [
+								"{{envurl}}"
+							],
+							"path": [
+								"public",
+								"v2",
+								"6930899"
+							]
+						},
+						"description": "DELETE USER API:\n\n**This is a REST API that uses HTTP method=DELETE and is used to delete existing user details in the server/database**\n\n**Expected Result:  \n**\n\n- **Verify if response code received from server is 204 No Content-PASSED**\n    \n- **Verify if response time from server < 5 seconds-PASSED**\n    \n- **Verify if response body is not received from server-PASSED**"
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "ctoken",
+			"value": "7aae2b24aec11ae439f6e9f60bff79e4127f15d644294402770de5ce3be7a474"
+		},
+		{
+			"key": "ctoken",
+			"value": ""
+		},
+		{
+			"key": "cname",
+			"value": ""
+		},
+		{
+			"key": "cgender",
+			"value": ""
+		},
+		{
+			"key": "cstatus",
+			"value": ""
+		}
+	]
+}

@@ -1,0 +1,149 @@
+{
+	"id": "2f157498-19b6-41fa-9a0c-2d569509444e",
+	"name": "Project1RestAPIs",
+	"timestamp": "2024-05-24T04:28:53.335Z",
+	"collection_id": "27583274-6bd0deac-39ca-4613-98cf-317795f3e8e9",
+	"folder_id": "27583274-c06c2f9a-d755-43fe-a7d8-de721da30c9f",
+	"environment_id": "0",
+	"totalPass": 49,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-05-24T04:28:48.019Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "c2ee5bc9-c516-4def-a35c-520e592edc9b",
+			"name": "CREATE USER API",
+			"url": "https://gorest.co.in/public/v2/users/",
+			"time": 659,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"verify if response code is 201 Created": true,
+				"Verify if response time is < 5 seconds": true,
+				"Verify if response body is received from server": true,
+				"Verify if response body is received in JSON format": true,
+				"Verify if response body contains fields such as id, name, email, gender, status": true,
+				"Verify if gender is either male or female": true,
+				"Verify if status is either active or inactive": true
+			},
+			"testPassFailCounts": {
+				"verify if response code is 201 Created": {
+					"pass": 7,
+					"fail": 0
+				},
+				"Verify if response time is < 5 seconds": {
+					"pass": 7,
+					"fail": 0
+				},
+				"Verify if response body is received from server": {
+					"pass": 7,
+					"fail": 0
+				},
+				"Verify if response body is received in JSON format": {
+					"pass": 7,
+					"fail": 0
+				},
+				"Verify if response body contains fields such as id, name, email, gender, status": {
+					"pass": 7,
+					"fail": 0
+				},
+				"Verify if gender is either male or female": {
+					"pass": 7,
+					"fail": 0
+				},
+				"Verify if status is either active or inactive": {
+					"pass": 7,
+					"fail": 0
+				}
+			},
+			"times": [
+				664,
+				638,
+				738,
+				605,
+				554,
+				650,
+				659
+			],
+			"allTests": [
+				{
+					"verify if response code is 201 Created": true,
+					"Verify if response time is < 5 seconds": true,
+					"Verify if response body is received from server": true,
+					"Verify if response body is received in JSON format": true,
+					"Verify if response body contains fields such as id, name, email, gender, status": true,
+					"Verify if gender is either male or female": true,
+					"Verify if status is either active or inactive": true
+				},
+				{
+					"verify if response code is 201 Created": true,
+					"Verify if response time is < 5 seconds": true,
+					"Verify if response body is received from server": true,
+					"Verify if response body is received in JSON format": true,
+					"Verify if response body contains fields such as id, name, email, gender, status": true,
+					"Verify if gender is either male or female": true,
+					"Verify if status is either active or inactive": true
+				},
+				{
+					"verify if response code is 201 Created": true,
+					"Verify if response time is < 5 seconds": true,
+					"Verify if response body is received from server": true,
+					"Verify if response body is received in JSON format": true,
+					"Verify if response body contains fields such as id, name, email, gender, status": true,
+					"Verify if gender is either male or female": true,
+					"Verify if status is either active or inactive": true
+				},
+				{
+					"verify if response code is 201 Created": true,
+					"Verify if response time is < 5 seconds": true,
+					"Verify if response body is received from server": true,
+					"Verify if response body is received in JSON format": true,
+					"Verify if response body contains fields such as id, name, email, gender, status": true,
+					"Verify if gender is either male or female": true,
+					"Verify if status is either active or inactive": true
+				},
+				{
+					"verify if response code is 201 Created": true,
+					"Verify if response time is < 5 seconds": true,
+					"Verify if response body is received from server": true,
+					"Verify if response body is received in JSON format": true,
+					"Verify if response body contains fields such as id, name, email, gender, status": true,
+					"Verify if gender is either male or female": true,
+					"Verify if status is either active or inactive": true
+				},
+				{
+					"verify if response code is 201 Created": true,
+					"Verify if response time is < 5 seconds": true,
+					"Verify if response body is received from server": true,
+					"Verify if response body is received in JSON format": true,
+					"Verify if response body contains fields such as id, name, email, gender, status": true,
+					"Verify if gender is either male or female": true,
+					"Verify if status is either active or inactive": true
+				},
+				{
+					"verify if response code is 201 Created": true,
+					"Verify if response time is < 5 seconds": true,
+					"Verify if response body is received from server": true,
+					"Verify if response body is received in JSON format": true,
+					"Verify if response body contains fields such as id, name, email, gender, status": true,
+					"Verify if gender is either male or female": true,
+					"Verify if status is either active or inactive": true
+				}
+			]
+		}
+	],
+	"count": 7,
+	"totalTime": 4508,
+	"collection": {
+		"requests": [
+			{
+				"id": "c2ee5bc9-c516-4def-a35c-520e592edc9b",
+				"method": "POST"
+			}
+		]
+	}
+}
